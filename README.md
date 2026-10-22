@@ -1,4 +1,4 @@
-# CHS Career Spin
+# CHS Spin Game
 
 A redesigned version of the CHS "Spin for a chance to Win" booth game, built with React and Vite. It keeps the CHS brand colours and logo.
 
@@ -83,7 +83,7 @@ Personal Outlook.com/Hotmail addresses **cannot** be used. Microsoft only allows
 | Field | Value |
 |---|---|
 | Sender email | the mailbox address, e.g. `events@yourcompany.com` |
-| Sender name | `CHS Career Spin` |
+| Sender name | `CHS Spin Game` |
 | Host | `smtp.office365.com` |
 | Port | `587` |
 | Username | the same mailbox address |
