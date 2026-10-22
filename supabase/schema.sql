@@ -1,5 +1,5 @@
 -- =====================================================================
---  CHS Career Spin — shared database
+--  CHS Spin Game — shared database
 --  Run this ONCE in Supabase: Dashboard → SQL Editor → New query → Run
 --
 --  >>> BEFORE RUNNING: change the admin password on the line marked  <<<
@@ -203,7 +203,7 @@ grant execute on function public.admin_password_set(), public.admin_setup(text) 
 
 -- ---------- Starting data ----------
 insert into public.prize_stock (name, remaining) values
-  ('Tracks Fidget', 60), ('Controller Fidget', 78), ('Ballpen', 100), ('Notebook', 100)
+  ('Tracks Fidget', 60), ('Controller Fidget', 80), ('Ballpen', 100), ('Notebook', 100)
 on conflict (name) do nothing;
 
 -- Admin password (stored hashed). Optional: you can instead set it once
