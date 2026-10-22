@@ -1,8 +1,8 @@
-# Render Blueprint — creates the CHS Career Spin static site.
+# Render Blueprint — creates the CHS Spin Game static site.
 # Render → New → Blueprint → pick this repository → Apply.
 services:
   - type: web
-    name: chs-career-spin
+    name: chs-spin-game
     runtime: static
     buildCommand: npm ci && npm run build
     staticPublishPath: dist
